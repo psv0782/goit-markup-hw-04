@@ -154,6 +154,17 @@ img {
     align-items: center;
     text-align: center;
     padding: 188px 0;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+    ), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
 }
 
 .hero-container {
@@ -169,7 +180,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    background-color: #2e2f42;
     margin-bottom: 48px;
     max-width: 496px;
 }
