@@ -474,6 +474,15 @@ img {
 
 /* footer */
 
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-logo-container{
+    margin-right: 120px;
+}
+
 .page-footer {
     padding: 100px 0;
     background-color: #2e2f42;
@@ -491,4 +500,19 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+}
+
+.footer-icon-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-icon-list{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
